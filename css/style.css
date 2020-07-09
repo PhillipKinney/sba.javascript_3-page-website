@@ -23,3 +23,9 @@ object {
     left:50px;
     position: relative;
 }
+
+#form{
+    width:500px;
+    left: 50px;
+    position: relative;
+}
