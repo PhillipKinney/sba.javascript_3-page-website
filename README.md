@@ -3,25 +3,28 @@
 
 
 ### Description
-* In this Skill-based Assessment, you will be creating a small website and you get to pick what is the website about. The main purpose of this SBA is to test your skills in implementing a clean HTML structure that follows the methodologies of visual design, and styling your site so that it is user-friendly.
+* I decided to design a 3 page website the allows a user to see the top 5 restartants, submit thier favorite restaurants, and search for the weekly deals at one of the top 5 restaurants in Raleigh or Durham, NC.
 
-* You have the entire day for this SBA. Make sure to check in with your instructor for approval of your idea. Your work will be graded based on the below technical requirements. Also, creativity always works in your favor.
+## Technologies Used
+*HTML
+*CSS
+*Bootstrap
+*Java Script
 
-* Since this is your first time creating a 3 page website, keep it simple. Keeping it simple is very important. It ensures that you can complete this project within the given time and also gives you a better idea of what can you get done in the given time if you were to do it again with more requirements.
+## Design Process
+* I started by building a skeleton of the website using html and bootstrap elements. I then added in photos, tables, and made adjustments in CSS to bring the appearance more closely in line with what I wanted.
 
-* Once you got your idea, think in the user’s perspective when creating the website.  You like your users to have a good experience when interacting with your site. This gives you a better chance of users trusting your site and coming back for more. For this SBA, don’t worry too much about the content. There are many places you can get free content to display on your site. Concentrate more on the web site's structure and grid system.
+* Once that was completed I added in the JavaScript element. I used JavaScript to add a search feature (see citation below) to my Raleigh and Durham pages that allows users to search for the weekly specials at the top 5 restaurants in each respective city.
 
+## Challenges
+* I ran into an issue with one of the links on my homepage not working. I did some research on StackOverflow and learned that the issue could be due a <Div> covering the link up. I checked my <Div>'s, and realized that this was the issue so I made the necessary adjustment.
+* Implementing and troubleshooting the JavaScript ended up being pretty time consuming. I had trouble deciding what to feature to add. The search feature I decided to add worked initially, but stopped working after I made some adjustments to the code. I reverted elements that could have caused the error, but still could not get it back working properly. On the upside, I feel like I gained a much better understanding of the eventhandler and how it interacts with HTML through this process.
 
-* Some resources for free content:
-  * Photos: `https://www.pexels.com/search/template/`
-  * Text: `https://www.lipsum.com/`
-  * GIFs: `https://www.motionelements.com/stock-image-10116013-business-and-startup-4k`
+# Citation
+* Idea for the search feature came from the Mozilla Developer site. I adjusted the HTML and JavaSpript code where needed to fit my project.
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code
 
-* Useful API sites:
-  * https://rapidapi.com/ (Links to an external site.)
-  * https://any-api.com/ (Links to an external site.)
-  * https://github.com/toddmotto/public-apis#public-apis- (Links to an external site.)
-  * https://apilist.fun/
+ 
 
 ### Deliverable:
 * A theme for your site that you feel comfortable with
@@ -35,73 +38,7 @@
 
 
 
-## Technical requirements
-
-* HTML
-  * Have at least 3 pages, keep the grid system consistent as much as possible
-  * Use at least 10 different HTML tags
-  * Use HTML tables
-  * Implement at least two uses for forms
-  * Dropped Down Menu 
-  * Use web fonts
-  * Use different types of content in the form of text, images, videos, and GIFs
-  * Use regex validation
-
-* CSS
-  * Inline, internal, and external styling
-  * Use five different CSS selectors
-  * Don’t use too many fonts
-  * Use colors that complement each other
-  * Use Flexbox (Optional)
-  * Use SASS/SCSS (Optional)
-  * Use animations (Optional)
-
-* Javascript
-  * External scripts
-  * Use variables, if statements, loops, at least one form of collections, functions/call back, and events
-  * Use AJAX (Optional) 
-  * Use JSON or XML (Optional)
-  * Use JQuery (Optional)
-
-
-
-## How to Download
-
-#### Part 1 - Forking the Project
-* To _fork_ the project, click the `Fork` button located at the top right of the project.
-
-
-#### Part 2 - Navigating to _forked_ Repository
-* Navigate to your github profile to find the _newly forked repository_.
-* Copy the URL of the project to the clipboard.
-
-#### Part 3 - Cloning _forked_ repository
-* Clone the repository from **your account** into the `~/dev` directory.
-  * if you do not have a `~/dev` directory, make one by executing the following command:
-  * * `mkdir ~/dev`
-  * navigate to the `~/dev` directory by executing the following command:
-  * * `cd ~/dev`
-  * clone the project by executing the following command:
-  * * `git clone https://github.com/${MYUSERNAME}/${NAMEOFPROJECT}`
 
 
 
 
-
-
-## How to Submit
-
-#### Part 1 -  _Pushing_ local changes to remote repository
-* from a _terminal_ navigate to the root directory of the _cloned_ project.
-* from the root directory of the project, execute the following commands:
-  * * add all changes
-  *   * `git add .`
-  * * commit changes to be pushed
-  *   * `git commit -m 'I have added changes'`
-  * * push changes to your repository
-  *   * `git push -u origin master`
-
-#### Part 2 - Submitting assignment
-* from the browser, navigate to the _forked_ project from **your** github account.
-* click the `Pull Requests` tab.
-* select `New Pull Request`
