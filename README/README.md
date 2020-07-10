@@ -24,7 +24,8 @@
 * Idea for the search feature came from the Mozilla Developer site. I adjusted the HTML and JavaSpript code where needed to fit my project.
 https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code
 
- 
+# Link to Github Pages
+* https://phillipkinney.github.io/sba.javascript_3-page-website/ 
 
 ### Deliverable:
 * A theme for your site that you feel comfortable with
